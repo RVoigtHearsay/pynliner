@@ -5,7 +5,7 @@ from setuptools import setup
 
 install_requires = [
     'BeautifulSoup >=3.2.1,<4.0',
-    'cssutils >=0.9.7',
+    'cssutils ==1.0.1',
 ]
 
 tests_require = [
@@ -13,7 +13,7 @@ tests_require = [
 ] + install_requires
 
 setup(name='pynliner',
-      version='0.5.3a0',
+      version='0.5.3a1',
       description='Python CSS-to-inline-styles conversion tool for HTML using'
                   ' BeautifulSoup and cssutils',
       author='Tanner Netterville',
